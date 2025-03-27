@@ -246,6 +246,22 @@ img {
   flex-basis: calc((100% - 72px) / 4);
 }
 
+.text-icon {
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.text-icon-all {
+  display: flex;
+  gap: 24px;
+}
+
 /*Section 3 Team*/
 
 .teammates {
