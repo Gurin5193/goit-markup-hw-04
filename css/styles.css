@@ -252,7 +252,6 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background: #f4f4fd;
-  width: 264px;
   height: 112px;
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -274,11 +273,14 @@ img {
 }
 
 .item-team {
+  background-color: #ffffff;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   flex-basis: calc((100% - 72px) / 4);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .section-team {
@@ -292,10 +294,31 @@ img {
 
 .text-team {
   text-align: center;
+  margin-bottom: 8px;
 }
 
-.item-team {
-  background-color: #ffffff;
+.team-icon {
+  fill: white;
+}
+
+.team-icon-all {
+  margin: 0 16px;
+  max-width: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.team-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 /*Section 4 Portfolio*/
