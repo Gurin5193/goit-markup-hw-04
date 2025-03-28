@@ -367,3 +367,24 @@ img {
   max-width: 264px;
   color: #f4f4fd;
 }
+.text-footer-media {
+  color: #fff;
+  font-weight: 500;
+  width: 96px;
+  margin-bottom: 16px;
+}
+.footer-container {
+  display: flex;
+}
+.social-media {
+  margin: 0 0 0 120px;
+}
+
+.team-icon-all-footer {
+  gap: 16px;
+  margin: 0;
+}
+
+.team-icon-wrapper-footer {
+  flex-basis: calc((100% - 48px) / 4);
+}
